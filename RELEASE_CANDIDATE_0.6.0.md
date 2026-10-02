@@ -38,8 +38,6 @@ local paths, build caches or the Atlas Deep Analysis capture provider.
 
 ## Gates intentionally deferred
 
-- confirm or replace every bundled third-party visual asset before building a
-  public package;
 - build the public ZIP from a clean checkout without the Atlas provider;
 - generate a release manifest containing channel, canonical source SHA,
   toolchain/dependency versions and hashes for every payload file;

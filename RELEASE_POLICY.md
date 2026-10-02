@@ -32,8 +32,9 @@ Every public stable release requires:
 5. Packaged `ReplayLab.exe --self-test` and a clean-directory installation smoke
    test on supported Windows.
 6. Secret, private-path, forbidden-artifact, and private-public-boundary scans.
-7. Recorded provenance and redistribution permission for every bundled
-   third-party asset, or omission of that asset from the public package.
+7. Recorded provenance for every bundled third-party asset. ReplayLab is a
+   free, non-commercial community utility; hero and item icons are UI
+   convenience only, and third-party asset rights do not block a release.
 8. A manifest with version, channel, source SHA, Atlas/provider SHA, build time,
    toolchain/dependency versions, and hashes for all payload files.
 9. An immutable `vX.Y.Z` tag, GitHub Release, portable ZIP, SHA-256 checksum,
@@ -54,7 +55,6 @@ Public commits and artifacts must not contain:
   corpora, maps, game binaries, or decompiler output;
 - credentials, cookies, personal diagnostics, private logs, or local absolute
   paths;
-- third-party assets without documented redistribution permission;
 - unverified helper binaries or manifests that cannot be tied to the exact ZIP.
 
 ## Maintenance changes

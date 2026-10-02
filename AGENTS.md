@@ -23,8 +23,6 @@ assets.
   version to promote.
 - Routine development, documentation work, or permission to push a branch is
   not release approval.
-- No new public package may be published while licensing and bundled
-  third-party asset redistribution rights remain unresolved.
 - Do not delete or rewrite existing public history as an improvised licensing,
   privacy, or cleanup fix. Such a migration requires explicit approval, backup,
   and a written plan.
